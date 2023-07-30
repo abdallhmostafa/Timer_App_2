@@ -59,13 +59,15 @@ class _TimerPageState extends State<TimerPage> {
                         hour.toString().padLeft(2, "0"),
                         style: const TextStyle(
                             fontWeight: FontWeight.w700,
-                            fontSize: 65.0,
+                            fontSize: 55.0,
                             color: Colors.black,
                             letterSpacing: 7.0),
                       ),
                     ),
-                   const SizedBox(height: 20.0,),
-                   const  Text(
+                    const SizedBox(
+                      height: 20.0,
+                    ),
+                    const Text(
                       "Hours",
                       style: TextStyle(
                         fontSize: 20.0,
@@ -74,7 +76,6 @@ class _TimerPageState extends State<TimerPage> {
                         letterSpacing: 5.0,
                       ),
                     ),
-
                   ],
                 ),
                 const SizedBox(
@@ -97,12 +98,14 @@ class _TimerPageState extends State<TimerPage> {
                         minute.toString().padLeft(2, "0"),
                         style: const TextStyle(
                             fontWeight: FontWeight.w700,
-                            fontSize: 65.0,
+                            fontSize: 55.0,
                             color: Colors.black,
                             letterSpacing: 7.0),
                       ),
                     ),
-                    const SizedBox(height: 20.0,),
+                    const SizedBox(
+                      height: 20.0,
+                    ),
                     const Text(
                       "Minutes",
                       style: TextStyle(
@@ -112,7 +115,6 @@ class _TimerPageState extends State<TimerPage> {
                         letterSpacing: 3.0,
                       ),
                     ),
-
                   ],
                 ),
                 const SizedBox(
@@ -135,12 +137,14 @@ class _TimerPageState extends State<TimerPage> {
                         second.toString().padLeft(2, "0"),
                         style: const TextStyle(
                             fontWeight: FontWeight.w700,
-                            fontSize: 65.0,
+                            fontSize: 55.0,
                             color: Colors.black,
                             letterSpacing: 7.0),
                       ),
                     ),
-                    const SizedBox(height: 20.0,),
+                    const SizedBox(
+                      height: 20.0,
+                    ),
                     const Text(
                       "Seconds",
                       style: TextStyle(
@@ -150,7 +154,6 @@ class _TimerPageState extends State<TimerPage> {
                         letterSpacing: 2.0,
                       ),
                     ),
-
                   ],
                 ),
               ],
@@ -254,7 +257,7 @@ class _TimerPageState extends State<TimerPage> {
                     child: const Text(
                       "Start Timer",
                       style: TextStyle(
-                        fontSize: 24.0,
+                        fontSize: 22.0,
                         color: Colors.white,
                         fontWeight: FontWeight.w500,
                       ),
